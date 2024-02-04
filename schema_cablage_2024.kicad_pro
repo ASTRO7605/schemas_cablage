@@ -448,51 +448,51 @@
     "netclass_patterns": [
       {
         "netclass": "CANH",
-        "pattern": "/CANH"
+        "pattern": "*/CANH"
       },
       {
         "netclass": "CANL",
-        "pattern": "/CANL"
+        "pattern": "*/CANL"
       },
       {
         "netclass": "ETH",
-        "pattern": "/ETH"
+        "pattern": "*/ETH"
       },
       {
         "netclass": "SIG",
-        "pattern": "/SIG"
+        "pattern": "*/SIG"
       },
       {
         "netclass": "USB",
-        "pattern": "/USB"
+        "pattern": "*/USB"
       },
       {
         "netclass": "V+",
-        "pattern": "/V+"
+        "pattern": "*/V+"
       },
       {
         "netclass": "V-",
-        "pattern": "/V-"
+        "pattern": "*/V-"
       },
       {
         "netclass": "ΦA",
-        "pattern": "/ΦA"
+        "pattern": "*/ΦA"
       },
       {
         "netclass": "ΦB",
-        "pattern": "/ΦB"
+        "pattern": "*/ΦB"
       },
       {
         "netclass": "ΦC",
-        "pattern": "/ΦC"
+        "pattern": "*/ΦC"
       },
       {
         "netclass": "V+",
-        "pattern": "/M+"
+        "pattern": "*/M+"
       },
       {
         "netclass": "V-",
-        "pattern": "/M-"
+        "pattern": "*/M-"
       }
     ]
   },
@@ -555,6 +555,22 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "b632b64e-d5b7-456d-a7ae-6969aba14a97",
+      "Module Swerve avant droit"
+    ],
+    [
+      "e4b49782-05fc-4e80-9ba9-edd7f0cdce32",
+      "Module Swerve avant gauche"
+    ],
+    [
+      "3439eb03-35bd-48b7-a9f1-5d73cc12bdd7",
+      "Module Swerve arrière gauche"
+    ],
+    [
+      "e92e2da7-8df4-42ea-b0b1-e2a2f3556d07",
+      "Module Swerve arrière droit"
     ]
   ],
   "text_variables": {}
