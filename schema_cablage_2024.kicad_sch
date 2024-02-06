@@ -6,8 +6,8 @@
 
   (title_block
     (title "Schéma de câblage Disc-O 2024")
-    (date "2024-02-04")
-    (rev "1.1")
+    (date "2024-02-06")
+    (rev "1.2")
     (company "ASTRO 7605 (2024)")
   )
 
@@ -7690,6 +7690,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8a33f36a-7052-4562-a02c-bb206402a137)
   )
+  (text "CAPTEUR PRÉSENCE SHOOTER" (at 201.93 452.12 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 90516c64-1753-446f-89bd-3f4c8d964cb1)
+  )
   (text "SPARK MAX\nRAMASSEUR\nCOURROIE DU HAUT" (at 693.42 394.97 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 90b2d537-73eb-4e07-8f08-2f9530bd04d6)
@@ -7869,6 +7873,10 @@
   (text "30 AWG" (at 257.81 420.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f93abac2-2fc8-4e28-9aad-fc6fdce29527)
+  )
+  (text "CAPTEUR PRÉSENCE INTAKE" (at 201.93 407.67 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid fb5ee43d-4de1-477a-90eb-12e2a04e8bb2)
   )
   (text "12 AWG" (at 283.21 127 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
