@@ -464,7 +464,7 @@
       },
       {
         "netclass": "USB",
-        "pattern": "*/USB"
+        "pattern": "*/USB*"
       },
       {
         "netclass": "V+",
@@ -485,14 +485,6 @@
       {
         "netclass": "ΦC",
         "pattern": "*/ΦC"
-      },
-      {
-        "netclass": "V+",
-        "pattern": "*/M+"
-      },
-      {
-        "netclass": "V-",
-        "pattern": "*/M-"
       }
     ]
   },
@@ -571,6 +563,10 @@
     [
       "e92e2da7-8df4-42ea-b0b1-e2a2f3556d07",
       "Module Swerve arrière droit"
+    ],
+    [
+      "1b3a1c37-25c1-4c56-8214-aa5c607a7a96",
+      "Sous-système vision"
     ]
   ],
   "text_variables": {}
