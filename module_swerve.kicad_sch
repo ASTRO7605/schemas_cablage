@@ -6,8 +6,8 @@
 
   (title_block
     (title "Schéma de câblage Disc-O 2024")
-    (date "2024-02-17")
-    (rev "1.5")
+    (date "2024-02-27")
+    (rev "1.6")
     (company "ASTRO 7605 (2024)")
   )
 
@@ -1021,7 +1021,7 @@
   (symbol (lib_id "FRC_Components:CTRE_CANCoder") (at 96.52 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 084138f9-ee81-4a47-a0ed-35ef905a7439)
-    (property "Reference" "U18" (at 105.4294 69.85 90)
+    (property "Reference" "U20" (at 105.4294 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CTRE_CANCoder" (at 105.4294 72.39 90)
@@ -1042,16 +1042,16 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
-          (reference "U18") (unit 1)
+          (reference "U20") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
-          (reference "U27") (unit 1)
+          (reference "U29") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
-          (reference "U21") (unit 1)
+          (reference "U23") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-          (reference "U24") (unit 1)
+          (reference "U26") (unit 1)
         )
       )
     )
@@ -1097,7 +1097,7 @@
   (symbol (lib_id "FRC_Components:REV_Spark_MAX") (at 96.52 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95364262-23dc-4407-b0ac-9f014ae69bbd)
-    (property "Reference" "U17" (at 96.52 64.77 90)
+    (property "Reference" "U19" (at 96.52 64.77 90)
       (effects (font (size 1.778 1.778)))
     )
     (property "Value" "REV_Spark_MAX" (at 93.98 52.07 0)
@@ -1123,16 +1123,16 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
-          (reference "U17") (unit 1)
+          (reference "U19") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
-          (reference "U20") (unit 1)
+          (reference "U22") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-          (reference "U23") (unit 1)
+          (reference "U25") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
-          (reference "U26") (unit 1)
+          (reference "U28") (unit 1)
         )
       )
     )
@@ -1141,7 +1141,7 @@
   (symbol (lib_id "FRC_Components:REV_Spark_MAX") (at 96.52 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0d081d8-5bfc-4e5d-b924-2e8e44791e6b)
-    (property "Reference" "U19" (at 96.52 120.65 90)
+    (property "Reference" "U21" (at 96.52 120.65 90)
       (effects (font (size 1.778 1.778)))
     )
     (property "Value" "REV_Spark_MAX" (at 93.98 107.95 0)
@@ -1167,16 +1167,16 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
-          (reference "U19") (unit 1)
+          (reference "U21") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
-          (reference "U22") (unit 1)
+          (reference "U24") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-          (reference "U25") (unit 1)
+          (reference "U27") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
-          (reference "U28") (unit 1)
+          (reference "U30") (unit 1)
         )
       )
     )

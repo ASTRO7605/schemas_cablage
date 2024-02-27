@@ -6,8 +6,8 @@
 
   (title_block
     (title "Schéma de câblage Disc-O 2024")
-    (date "2024-02-17")
-    (rev "1.5")
+    (date "2024-02-27")
+    (rev "1.6")
     (company "ASTRO 7605 (2024)")
   )
 
@@ -829,7 +829,7 @@
   (symbol (lib_id "FRC_Components:Arducam_OV2311_Global_Shutter_USB_Camera") (at 173.99 139.7 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bff870b-ebd7-45eb-8bff-227c93bb1e68)
-    (property "Reference" "U32" (at 167.64 128.27 0)
+    (property "Reference" "U34" (at 167.64 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Arducam_OV2311_Global_Shutter_USB_Camera" (at 167.64 130.81 0)
@@ -845,7 +845,7 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1b3a1c37-25c1-4c56-8214-aa5c607a7a96"
-          (reference "U32") (unit 1)
+          (reference "U34") (unit 1)
         )
       )
     )
@@ -854,7 +854,7 @@
   (symbol (lib_id "FRC_Components:MicroSD_Card") (at 72.39 17.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24302936-97b5-47ef-ad25-4bb87c8fc1ca)
-    (property "Reference" "U30" (at 63.5 21.59 0)
+    (property "Reference" "U32" (at 63.5 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 72.39 17.78 0)
@@ -870,7 +870,7 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1b3a1c37-25c1-4c56-8214-aa5c607a7a96"
-          (reference "U30") (unit 1)
+          (reference "U32") (unit 1)
         )
       )
     )
@@ -879,7 +879,7 @@
   (symbol (lib_id "FRC_Components:Orange_Pi_5") (at 82.55 12.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 363869f7-24cd-4d4c-8503-30ce9500037f)
-    (property "Reference" "U31" (at 84.7441 21.59 0)
+    (property "Reference" "U33" (at 84.7441 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Orange_Pi_5" (at 84.7441 24.13 0)
@@ -938,7 +938,7 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1b3a1c37-25c1-4c56-8214-aa5c607a7a96"
-          (reference "U31") (unit 1)
+          (reference "U33") (unit 1)
         )
       )
     )
@@ -947,7 +947,7 @@
   (symbol (lib_id "FRC_Components:Orange_Pi_5") (at 190.5 12.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cb436e4-fd49-407b-9123-d39ff3cd31ca)
-    (property "Reference" "U34" (at 192.6941 21.59 0)
+    (property "Reference" "U36" (at 192.6941 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Orange_Pi_5" (at 192.6941 24.13 0)
@@ -1006,7 +1006,7 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1b3a1c37-25c1-4c56-8214-aa5c607a7a96"
-          (reference "U34") (unit 1)
+          (reference "U36") (unit 1)
         )
       )
     )
@@ -1015,7 +1015,7 @@
   (symbol (lib_id "FRC_Components:MicroSD_Card") (at 180.34 17.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e8c71e8-c69c-4739-9d50-73ae4c2f1f24)
-    (property "Reference" "U33" (at 171.45 21.59 0)
+    (property "Reference" "U35" (at 171.45 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 180.34 17.78 0)
@@ -1031,7 +1031,7 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1b3a1c37-25c1-4c56-8214-aa5c607a7a96"
-          (reference "U33") (unit 1)
+          (reference "U35") (unit 1)
         )
       )
     )
@@ -1066,7 +1066,7 @@
   (symbol (lib_id "FRC_Components:Arducam_OV2311_Global_Shutter_USB_Camera") (at 66.04 139.7 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a2474ac-16a2-47d5-a18b-7d152d9f8385)
-    (property "Reference" "U29" (at 59.69 128.27 0)
+    (property "Reference" "U31" (at 59.69 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Arducam_OV2311_Global_Shutter_USB_Camera" (at 59.69 130.81 0)
@@ -1082,7 +1082,7 @@
     (instances
       (project "schema_cablage_2024"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/1b3a1c37-25c1-4c56-8214-aa5c607a7a96"
-          (reference "U29") (unit 1)
+          (reference "U31") (unit 1)
         )
       )
     )
