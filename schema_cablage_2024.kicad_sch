@@ -6,11 +6,130 @@
 	(paper "D")
 	(title_block
 		(title "Schéma de câblage Disc-O 2024")
-		(date "2024-02-27")
-		(rev "1.6")
+		(date "2024-03-09")
+		(rev "1.7")
 		(company "ASTRO 7605 (2024)")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -1968,6 +2087,102 @@
 					(at 21.59 7.62 180)
 					(length 2.54)
 					(name "GND_OUT7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "FRC_Components:Google_Coral_USB_Accelerator"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Google_Coral_USB_Accelerator"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://coral.ai/static/files/Coral-USB-Accelerator-datasheet.pdf"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Google Coral USB TPU Accelerator"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "google coral tpu accelerator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Google_Coral_USB_Accelerator_1_1"
+				(rectangle
+					(start -2.54 0)
+					(end 2.54 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "USB3"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "USB-C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4465,17 +4680,6 @@
 					)
 				)
 				(circle
-					(center 0 -16.51)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 7.62 -19.05)
 					(radius 0.508)
 					(stroke
@@ -4525,6 +4729,19 @@
 						(font
 							(size 1.778 1.778)
 						)
+					)
+				)
+			)
+			(symbol "Limelight_1_0"
+				(circle
+					(center 0 -16.51)
+					(radius 2.54)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -12550,107 +12767,6 @@
 				)
 			)
 		)
-		(symbol "FRC_Components:Webcam_HD_Lifecam_3000"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Webcam_HD_Lifecam_3000"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB webcam, Microsoft"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "webcam lifecam microsoft"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Webcam_HD_Lifecam_3000_0_1"
-				(rectangle
-					(start -5.08 -6.35)
-					(end 5.08 -13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -10.16)
-					(radius 1.7961)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Webcam_HD_Lifecam_3000_1_1"
-				(pin bidirectional line
-					(at 3.81 -16.51 90)
-					(length 2.54)
-					(name "USB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LED:NeoPixel_THT"
 			(pin_names
 				(offset 0.254)
@@ -13503,10 +13619,6 @@
 		(uuid "6dd1ce42-7c4c-4dcf-976b-1ba760969302")
 	)
 	(no_connect
-		(at 482.6 323.85)
-		(uuid "6f4885ee-3e45-4070-9844-512258e7d771")
-	)
-	(no_connect
 		(at 441.96 378.46)
 		(uuid "6fd1e2f6-cc40-4af7-8963-00a9c9fbdc83")
 	)
@@ -13719,6 +13831,10 @@
 		(uuid "bf2706cb-3c7b-43c9-8314-6c19c77d91bc")
 	)
 	(no_connect
+		(at 373.38 378.46)
+		(uuid "c03783fa-9d56-4d21-9032-052c2b420d6e")
+	)
+	(no_connect
 		(at 447.04 459.74)
 		(uuid "c2d49134-d660-4cd6-af1a-699246aaa54b")
 	)
@@ -13741,10 +13857,6 @@
 	(no_connect
 		(at 358.14 535.94)
 		(uuid "cecc9c50-b95b-4b26-b8f6-30fa90c70558")
-	)
-	(no_connect
-		(at 354.33 378.46)
-		(uuid "d2029694-13fa-42c0-889b-82e72d4e41cb")
 	)
 	(no_connect
 		(at 297.18 436.88)
@@ -15823,16 +15935,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 375.92) (xy 373.38 378.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c8455b-1363-4d00-bbb8-8062a7529eda")
-	)
-	(wire
-		(pts
 			(xy 689.61 274.32) (xy 687.07 274.32)
 		)
 		(stroke
@@ -16083,7 +16185,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 326.39) (xy 487.68 326.39)
+			(xy 495.3 307.34) (xy 487.68 307.34)
 		)
 		(stroke
 			(width 0)
@@ -16821,16 +16923,6 @@
 		)
 		(uuid "383b520a-5927-436f-a17f-8c696fa7985b")
 	)
-	(wire
-		(pts
-			(xy 340.36 375.92) (xy 373.38 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387ab161-5b62-466c-a432-de92ba5421e3")
-	)
 	(bus
 		(pts
 			(xy 720.09 97.79) (xy 720.09 100.33)
@@ -16990,6 +17082,16 @@
 			(type default)
 		)
 		(uuid "3e4cf6a7-b2ed-453e-8037-696347ac0b9f")
+	)
+	(wire
+		(pts
+			(xy 431.8 340.36) (xy 443.23 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e821ad2-69e0-45a6-86f9-c5bfe9fd34e0")
 	)
 	(wire
 		(pts
@@ -17433,7 +17535,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 276.86) (xy 495.3 326.39)
+			(xy 495.3 276.86) (xy 495.3 307.34)
 		)
 		(stroke
 			(width 0)
@@ -18363,16 +18465,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 373.38) (xy 340.36 375.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b3d3a27-1e24-4c24-b7a0-eb9ab11f8322")
-	)
-	(wire
-		(pts
 			(xy 731.52 232.41) (xy 744.22 232.41)
 		)
 		(stroke
@@ -18440,6 +18532,16 @@
 			(type default)
 		)
 		(uuid "7d543381-a61a-4e38-9f55-614db86f455e")
+	)
+	(wire
+		(pts
+			(xy 482.6 304.8) (xy 482.6 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d83ff53-5cdc-411e-9f76-c78f0e6afb1a")
 	)
 	(wire
 		(pts
@@ -18983,6 +19085,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 375.92) (xy 354.33 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97803e8f-18d5-493c-b707-ac8586354263")
+	)
+	(wire
+		(pts
 			(xy 388.62 214.63) (xy 388.62 220.98)
 		)
 		(stroke
@@ -19130,6 +19242,16 @@
 			(type default)
 		)
 		(uuid "9decd06a-b456-4bfd-b532-dc81888b8a5f")
+	)
+	(wire
+		(pts
+			(xy 354.33 375.92) (xy 354.33 378.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e403712-8efb-425f-9e09-636792fb2cb7")
 	)
 	(wire
 		(pts
@@ -19320,16 +19442,6 @@
 			(type default)
 		)
 		(uuid "a72c0aaf-91a1-425b-8935-7502e8c51a6d")
-	)
-	(wire
-		(pts
-			(xy 431.8 340.36) (xy 443.23 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a791b526-8946-498f-a3bf-ec30e973bfd6")
 	)
 	(wire
 		(pts
@@ -20193,7 +20305,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 323.85) (xy 490.22 328.93)
+			(xy 490.22 304.8) (xy 490.22 309.88)
 		)
 		(stroke
 			(width 0)
@@ -20363,7 +20475,7 @@
 	)
 	(wire
 		(pts
-			(xy 497.84 328.93) (xy 497.84 274.32)
+			(xy 497.84 309.88) (xy 497.84 274.32)
 		)
 		(stroke
 			(width 0)
@@ -20883,7 +20995,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 326.39) (xy 487.68 323.85)
+			(xy 487.68 307.34) (xy 487.68 304.8)
 		)
 		(stroke
 			(width 0)
@@ -21253,7 +21365,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 323.85) (xy 469.9 356.87)
+			(xy 469.9 304.8) (xy 469.9 356.87)
 		)
 		(stroke
 			(width 0)
@@ -21303,7 +21415,7 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 328.93) (xy 497.84 328.93)
+			(xy 490.22 309.88) (xy 497.84 309.88)
 		)
 		(stroke
 			(width 0)
@@ -21738,6 +21850,17 @@
 			(justify right bottom)
 		)
 		(uuid "30098265-ec7f-4bbf-9fba-89801952b019")
+	)
+	(text "IMPORTANT: S'assurer que\nle câble soit USB3.\nLe côté rectangulaire USB-A\ndevrait avoir 9 contacts."
+		(exclude_from_sim no)
+		(at 483.87 320.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "301ea22d-c7cd-4ab9-96c8-41c47f66c0d6")
 	)
 	(text "SPARK MAX\nELEVATEUR\nGAUCHE"
 		(exclude_from_sim no)
@@ -22179,6 +22302,17 @@
 			(justify left bottom)
 		)
 		(uuid "913e27d7-a526-4653-8f06-51ad4a779686")
+	)
+	(text "18 AWG"
+		(exclude_from_sim no)
+		(at 431.8 340.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "953db258-7376-44f3-a475-79dddcb617e0")
 	)
 	(text "RSL"
 		(exclude_from_sim no)
@@ -22796,6 +22930,17 @@
 		)
 		(uuid "231bba50-8d4b-4637-8fac-c6fe32d5508a")
 	)
+	(label "USB3"
+		(at 482.6 330.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23d6aaf3-ebf4-4b85-bc4b-c3f7629615ae")
+	)
 	(label "CANH"
 		(at 196.85 195.58 270)
 		(fields_autoplaced yes)
@@ -23127,7 +23272,7 @@
 		(uuid "5bf3b719-6363-4407-90eb-31f1b1d0283f")
 	)
 	(label "ETH"
-		(at 393.6229 348.8986 0)
+		(at 393.7 349.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23633,6 +23778,17 @@
 		(uuid "a6e7c0f2-9713-47ba-acf9-95b4f749cce0")
 	)
 	(label "V-"
+		(at 439.42 337.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6ea3cc7-488e-41fd-81e8-e094a0255db5")
+	)
+	(label "V-"
 		(at 453.39 410.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23787,7 +23943,7 @@
 		(uuid "b80a7f50-0bd1-4cd7-9fb0-babe80853e31")
 	)
 	(label "ETH"
-		(at 393.6229 346.3586 0)
+		(at 393.7 346.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24105,6 +24261,17 @@
 		)
 		(uuid "efb181e9-a3dc-4ae6-8bc2-69fc0e0b0f9e")
 	)
+	(label "USB"
+		(at 350.52 375.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1d6eccb-54cb-48b2-8b3c-2ec428857e78")
+	)
 	(label "CANH"
 		(at 369.57 44.45 0)
 		(fields_autoplaced yes)
@@ -24126,6 +24293,17 @@
 			(justify left bottom)
 		)
 		(uuid "f4014059-fb89-46d2-8bfd-121895556a99")
+	)
+	(label "V+"
+		(at 439.42 340.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f45ce55e-47fd-4553-ade7-f9d84eceb972")
 	)
 	(label "ΦB"
 		(at 128.27 190.5 0)
@@ -24159,17 +24337,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa611288-54d4-470d-a087-0357ac14b1e3")
-	)
-	(label "USB"
-		(at 360.68 375.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc1263fb-f881-4744-9f03-da10444ca83f")
 	)
 	(label "ΦB"
 		(at 742.95 365.76 180)
@@ -24236,7 +24403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Robot Signal Light (RSL) for First Robotics, Allen-Bradley"
 			(at 284.48 520.7 0)
 			(effects
 				(font
@@ -24264,6 +24431,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 364.49 90)
 		(unit 1)
@@ -24306,7 +24474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 711.2 364.49 0)
 			(effects
 				(font
@@ -24401,7 +24569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 181.61 0)
 			(effects
 				(font
@@ -24426,6 +24594,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(lib_id "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(at 655.32 93.98 270)
 		(unit 1)
@@ -24468,7 +24637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cross The Road Electronics Talon SRX absolute encoder"
 			(at 655.32 93.98 0)
 			(effects
 				(font
@@ -24517,72 +24686,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FRC_Components:Webcam_HD_Lifecam_3000")
-		(at 336.55 356.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15bc1574-6f47-4d93-adb1-b42ea4d50b4d")
-		(property "Reference" "U5"
-			(at 325.12 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Webcam_HD_Lifecam_3000"
-			(at 325.12 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "2a08a557-698b-4c1c-b570-4ade545685b0")
-		)
-		(instances
-			(project "schema_cablage_2024"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 160.02 157.48 270)
 		(unit 1)
@@ -24625,7 +24729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 160.02 157.48 0)
 			(effects
 				(font
@@ -24721,7 +24825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multiple-cell battery"
 			(at 252.73 22.86 0)
 			(effects
 				(font
@@ -24788,7 +24892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Robotics navigation sensor"
 			(at 556.26 461.01 0)
 			(effects
 				(font
@@ -25119,6 +25223,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 364.49 90)
 		(unit 1)
@@ -25161,7 +25266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 737.87 364.49 0)
 			(effects
 				(font
@@ -25192,6 +25297,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 330.2 90)
 		(unit 1)
@@ -25234,7 +25340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 711.2 330.2 0)
 			(effects
 				(font
@@ -25329,7 +25435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 120.65 0)
 			(effects
 				(font
@@ -25354,6 +25460,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:VEX_CTRE_Talon_SRX")
 		(lib_id "FRC_Components:VEX_CTRE_Talon_SRX")
 		(at 547.37 88.9 0)
 		(unit 1)
@@ -25396,7 +25503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Electronic speed controller, CAN/PWM, Cross the Road Electronics, VEX Robotics"
 			(at 547.37 88.9 0)
 			(effects
 				(font
@@ -25512,7 +25619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 140.97 0)
 			(effects
 				(font
@@ -25581,7 +25688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
 			(at 466.09 374.65 0)
 			(effects
 				(font
@@ -25612,6 +25719,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(lib_id "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(at 762 93.98 270)
 		(unit 1)
@@ -25657,7 +25765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cross The Road Electronics Talon SRX absolute encoder"
 			(at 762 93.98 0)
 			(effects
 				(font
@@ -25749,7 +25857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 171.45 0)
 			(effects
 				(font
@@ -25774,6 +25882,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 345.44 375.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d167d99-fc6c-4d1f-810c-83a17d18ef75")
+		(property "Reference" "J"
+			(at 347.98 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB-B_DEV"
+			(at 347.98 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 345.44 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8774dc3f-91c1-4add-9fb5-17bf505c8873")
+		)
+		(instances
+			(project "schema_cablage_2024"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(lib_id "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(at 604.52 322.58 270)
 		(unit 1)
@@ -25819,7 +25994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cross The Road Electronics Talon SRX absolute encoder"
 			(at 604.52 322.58 0)
 			(effects
 				(font
@@ -25910,7 +26085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 270.51 21.59 0)
 			(effects
 				(font
@@ -25979,7 +26154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Motor"
 			(at 697.23 120.65 0)
 			(effects
 				(font
@@ -26047,7 +26222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -26072,6 +26247,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 330.2 90)
 		(unit 1)
@@ -26114,7 +26290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 737.87 330.2 0)
 			(effects
 				(font
@@ -26145,6 +26321,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 231.14 90)
 		(unit 1)
@@ -26187,7 +26364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 737.87 231.14 0)
 			(effects
 				(font
@@ -26261,7 +26438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single pole circuit breaker, US symbol"
 			(at 289.56 21.59 0)
 			(effects
 				(font
@@ -26329,7 +26506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 191.77 0)
 			(effects
 				(font
@@ -26354,16 +26531,16 @@
 		)
 	)
 	(symbol
-		(lib_id "FRC_Components:Limelight")
-		(at 477.52 293.37 0)
+		(lib_id "FRC_Components:Google_Coral_USB_Accelerator")
+		(at 482.6 345.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "650afbc6-4ba2-47cc-9c17-223e34e4b151")
-		(property "Reference" "U7"
-			(at 461.01 313.69 0)
+		(uuid "608b2c97-e5fa-430e-b1bb-bafb83e4079c")
+		(property "Reference" "U5"
+			(at 480.06 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26371,8 +26548,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Limelight 3"
-			(at 461.01 316.23 0)
+		(property "Value" "Google_Coral_USB_Accelerator"
+			(at 480.06 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26381,7 +26558,73 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 477.52 293.37 0)
+			(at 482.6 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://coral.ai/static/files/Coral-USB-Accelerator-datasheet.pdf"
+			(at 482.6 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Google Coral USB TPU Accelerator"
+			(at 482.6 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1799d817-0c53-43ca-8f73-9582d32813d3")
+		)
+		(instances
+			(project "schema_cablage_2024"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FRC_Components:Limelight")
+		(at 477.52 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "650afbc6-4ba2-47cc-9c17-223e34e4b151")
+		(property "Reference" "U7"
+			(at 461.01 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Limelight 3"
+			(at 461.01 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 477.52 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26390,7 +26633,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.limelightvision.io/docs/docs-limelight/getting-started/summary"
-			(at 477.52 293.37 0)
+			(at 477.52 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26398,8 +26641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 477.52 293.37 0)
+		(property "Description" "Limelight for FRC"
+			(at 477.52 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26472,7 +26715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 212.09 0)
 			(effects
 				(font
@@ -26540,7 +26783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 161.29 0)
 			(effects
 				(font
@@ -26565,6 +26808,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 133.35 191.77 270)
 		(unit 1)
@@ -26607,7 +26851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 133.35 191.77 0)
 			(effects
 				(font
@@ -26680,7 +26924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Open Mesh dual band access point, 1.17Gbps "
 			(at 386.08 299.72 0)
 			(effects
 				(font
@@ -26754,7 +26998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 201.93 0)
 			(effects
 				(font
@@ -26822,7 +27066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 140.97 0)
 			(effects
 				(font
@@ -26890,7 +27134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 130.81 0)
 			(effects
 				(font
@@ -26957,7 +27201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Voltage Regulator Module (VRM) for First Robotics, Cross the Road Electronics"
 			(at 322.58 294.64 0)
 			(effects
 				(font
@@ -27074,7 +27318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
 			(at 485.14 400.05 0)
 			(effects
 				(font
@@ -27149,7 +27393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Motor"
 			(at 552.45 120.65 0)
 			(effects
 				(font
@@ -27217,7 +27461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 201.93 0)
 			(effects
 				(font
@@ -27242,6 +27486,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 160.02 191.77 270)
 		(unit 1)
@@ -27284,7 +27529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 160.02 191.77 0)
 			(effects
 				(font
@@ -27378,7 +27623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power distribution panel (PDP) for First Robotics, Cross the Road Electronics"
 			(at 326.39 85.09 0)
 			(effects
 				(font
@@ -27772,7 +28017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "National Instruments RoboRIO robotics controller"
 			(at 372.11 457.2 0)
 			(effects
 				(font
@@ -28226,6 +28471,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:VEX_CTRE_Talon_SRX")
 		(lib_id "FRC_Components:VEX_CTRE_Talon_SRX")
 		(at 534.67 317.5 0)
 		(unit 1)
@@ -28268,7 +28514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Electronic speed controller, CAN/PWM, Cross the Road Electronics, VEX Robotics"
 			(at 534.67 317.5 0)
 			(effects
 				(font
@@ -28383,7 +28629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse, small symbol"
 			(at 335.28 97.79 0)
 			(effects
 				(font
@@ -28451,7 +28697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 212.09 0)
 			(effects
 				(font
@@ -28519,7 +28765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 274.32 21.59 0)
 			(effects
 				(font
@@ -28588,7 +28834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5-Port 10/100Mbps Ethernet Switch"
 			(at 379.73 351.79 0)
 			(effects
 				(font
@@ -28628,6 +28874,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 133.35 157.48 270)
 		(unit 1)
@@ -28670,7 +28917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 133.35 157.48 0)
 			(effects
 				(font
@@ -28744,7 +28991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 130.81 0)
 			(effects
 				(font
@@ -28769,6 +29016,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(lib_id "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(at 223.52 440.69 90)
 		(unit 1)
@@ -28813,7 +29061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Photoelectric Sensor, NPN, Polarized Retroreflector, Banner Engineering"
 			(at 223.52 440.69 0)
 			(effects
 				(font
@@ -28887,7 +29135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 151.13 0)
 			(effects
 				(font
@@ -28912,6 +29160,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(lib_id "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(at 223.52 421.64 90)
 		(unit 1)
@@ -28956,7 +29205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Photoelectric Sensor, NPN, Polarized Retroreflector, Banner Engineering"
 			(at 223.52 421.64 0)
 			(effects
 				(font
@@ -29031,7 +29280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
 			(at 485.14 374.65 0)
 			(effects
 				(font
@@ -29105,7 +29354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Isolated DC/DC Converter - Chassis Mount 60W 9-36Vin 5Vout 12A"
 			(at 421.64 332.74 0)
 			(effects
 				(font
@@ -29183,7 +29432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 5mm/8mm LED package"
 			(at 466.09 400.05 0)
 			(effects
 				(font
@@ -29214,6 +29463,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:VEX_CTRE_Talon_SRX")
 		(lib_id "FRC_Components:VEX_CTRE_Talon_SRX")
 		(at 692.15 88.9 0)
 		(unit 1)
@@ -29256,7 +29506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Electronic speed controller, CAN/PWM, Cross the Road Electronics, VEX Robotics"
 			(at 692.15 88.9 0)
 			(effects
 				(font
@@ -29372,7 +29622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 171.45 0)
 			(effects
 				(font
@@ -29397,6 +29647,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 231.14 90)
 		(unit 1)
@@ -29439,7 +29690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 711.2 231.14 0)
 			(effects
 				(font
@@ -29533,7 +29784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse, small symbol"
 			(at 335.28 87.63 0)
 			(effects
 				(font
@@ -29601,7 +29852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 317.5 191.77 0)
 			(effects
 				(font
@@ -29668,7 +29919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse, small symbol"
 			(at 335.28 107.95 0)
 			(effects
 				(font
@@ -29737,7 +29988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POE (Power over Ethernet) Injector cable for First Robotics, REV Robotics"
 			(at 388.62 313.69 0)
 			(effects
 				(font
@@ -29812,7 +30063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC Motor"
 			(at 539.75 349.25 0)
 			(effects
 				(font
@@ -29837,6 +30088,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 265.43 90)
 		(unit 1)
@@ -29879,7 +30131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 737.87 265.43 0)
 			(effects
 				(font
@@ -29910,6 +30162,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 265.43 90)
 		(unit 1)
@@ -29952,7 +30205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 711.2 265.43 0)
 			(effects
 				(font
@@ -30047,7 +30300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 335.28 181.61 0)
 			(effects
 				(font

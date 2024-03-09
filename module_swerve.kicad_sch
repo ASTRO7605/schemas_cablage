@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Schéma de câblage Disc-O 2024")
-		(date "2024-02-27")
-		(rev "1.6")
+		(date "2024-03-09")
+		(rev "1.7")
 		(company "ASTRO 7605 (2024)")
 	)
 	(lib_symbols
@@ -2753,7 +2753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cross The Road Electronics CAN absolute encoder"
 			(at 96.52 82.55 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 69.85 107.95 0)
 			(effects
 				(font
@@ -2929,7 +2929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 96.52 52.07 0)
 			(effects
 				(font
@@ -2993,6 +2993,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 96.52 107.95 270)
 		(unit 1)
@@ -3035,7 +3036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Spark MAX ESC for First Robotics, REV Robotics"
 			(at 96.52 107.95 0)
 			(effects
 				(font
@@ -3144,7 +3145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Playing With Fusion CAN daisy chain connector board, 5x2 pairs"
 			(at 187.96 88.9 0)
 			(effects
 				(font
@@ -3235,6 +3236,7 @@
 		)
 	)
 	(symbol
+		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 69.85 52.07 270)
 		(unit 1)
@@ -3277,7 +3279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NEO Brushless Motor for First Robotics, REV Robotics"
 			(at 69.85 52.07 0)
 			(effects
 				(font
