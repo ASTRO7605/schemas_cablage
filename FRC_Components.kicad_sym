@@ -9353,14 +9353,6 @@
 					(type none)
 				)
 			)
-			(text "Connexions internes"
-				(at -7.62 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(text "HI (YEL)"
 				(at 27.94 -17.78 0)
 				(effects
@@ -9371,6 +9363,14 @@
 			)
 			(text "HI (YEL)"
 				(at 27.94 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "Internal connections"
+				(at -7.62 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)

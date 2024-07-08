@@ -18905,7 +18905,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 180.34) (xy 200.66 205.74)
+			(xy 203.2 180.34) (xy 203.2 205.74)
 		)
 		(stroke
 			(width 0)
@@ -21325,7 +21325,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 180.34) (xy 200.66 180.34)
+			(xy 254 180.34) (xy 203.2 180.34)
 		)
 		(stroke
 			(width 0)
@@ -21435,7 +21435,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 205.74) (xy 181.61 205.74)
+			(xy 203.2 205.74) (xy 181.61 205.74)
 		)
 		(stroke
 			(width 0)
@@ -22668,7 +22668,7 @@
 	)
 	(text "24 DEL/bande. Seulement 2 de représentées."
 		(exclude_from_sim no)
-		(at 469.9 392.43 0)
+		(at 464.058 388.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22723,7 +22723,7 @@
 	)
 	(text "28 AWG"
 		(exclude_from_sim no)
-		(at 289.56 383.54 0)
+		(at 281.686 383.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24431,7 +24431,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 364.49 90)
 		(unit 1)
@@ -24594,7 +24593,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(lib_id "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(at 655.32 93.98 270)
 		(unit 1)
@@ -24686,7 +24684,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 160.02 157.48 270)
 		(unit 1)
@@ -25223,7 +25220,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 364.49 90)
 		(unit 1)
@@ -25297,7 +25293,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 330.2 90)
 		(unit 1)
@@ -25460,7 +25455,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:VEX_CTRE_Talon_SRX")
 		(lib_id "FRC_Components:VEX_CTRE_Talon_SRX")
 		(at 547.37 88.9 0)
 		(unit 1)
@@ -25719,7 +25713,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(lib_id "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(at 762 93.98 270)
 		(unit 1)
@@ -25948,7 +25941,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(lib_id "FRC_Components:CTRE_SRX_Mag_Encoder")
 		(at 604.52 322.58 270)
 		(unit 1)
@@ -26247,7 +26239,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 330.2 90)
 		(unit 1)
@@ -26321,7 +26312,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 231.14 90)
 		(unit 1)
@@ -26808,7 +26798,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 133.35 191.77 270)
 		(unit 1)
@@ -27486,7 +27475,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 160.02 191.77 270)
 		(unit 1)
@@ -28471,7 +28459,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:VEX_CTRE_Talon_SRX")
 		(lib_id "FRC_Components:VEX_CTRE_Talon_SRX")
 		(at 534.67 317.5 0)
 		(unit 1)
@@ -28874,7 +28861,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 133.35 157.48 270)
 		(unit 1)
@@ -29016,7 +29002,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(lib_id "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(at 223.52 440.69 90)
 		(unit 1)
@@ -29160,7 +29145,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(lib_id "FRC_Components:Banner_Photoelectric_Sensor_QS18VN6LP")
 		(at 223.52 421.64 90)
 		(unit 1)
@@ -29463,7 +29447,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:VEX_CTRE_Talon_SRX")
 		(lib_id "FRC_Components:VEX_CTRE_Talon_SRX")
 		(at 692.15 88.9 0)
 		(unit 1)
@@ -29647,7 +29630,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 231.14 90)
 		(unit 1)
@@ -30088,7 +30070,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 737.87 265.43 90)
 		(unit 1)
@@ -30162,7 +30143,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 711.2 265.43 90)
 		(unit 1)

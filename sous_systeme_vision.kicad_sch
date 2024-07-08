@@ -2872,7 +2872,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:Orange_Pi_5")
 		(lib_id "FRC_Components:Orange_Pi_5")
 		(at 190.5 12.7 0)
 		(unit 1)
@@ -3341,7 +3340,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:USBC_Power_Splitter")
 		(lib_id "FRC_Components:USBC_Power_Splitter")
 		(at 41.91 27.94 270)
 		(unit 1)

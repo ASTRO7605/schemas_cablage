@@ -450,14 +450,6 @@
 						(type none)
 					)
 				)
-				(text "Connexions internes"
-					(at -7.62 -24.13 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(text "HI (YEL)"
 					(at 27.94 -17.78 0)
 					(effects
@@ -468,6 +460,14 @@
 				)
 				(text "HI (YEL)"
 					(at 27.94 -12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Internal connections"
+					(at -7.62 -24.13 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2782,20 +2782,20 @@
 		)
 		(instances
 			(project "schema_cablage_2024"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
-					(reference "U20")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
+					(reference "U26")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
-					(reference "U29")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
+					(reference "U20")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
 					(reference "U23")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-					(reference "U26")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
+					(reference "U29")
 					(unit 1)
 				)
 			)
@@ -2867,20 +2867,20 @@
 		)
 		(instances
 			(project "schema_cablage_2024"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
-					(reference "M11")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
+					(reference "M15")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
-					(reference "M17")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
+					(reference "M11")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
 					(reference "M13")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-					(reference "M15")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
+					(reference "M17")
 					(unit 1)
 				)
 			)
@@ -2973,16 +2973,16 @@
 		)
 		(instances
 			(project "schema_cablage_2024"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
+					(reference "U25")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
 					(reference "U19")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
 					(reference "U22")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-					(reference "U25")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
@@ -2993,7 +2993,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_Spark_MAX")
 		(lib_id "FRC_Components:REV_Spark_MAX")
 		(at 96.52 107.95 270)
 		(unit 1)
@@ -3080,16 +3079,16 @@
 		)
 		(instances
 			(project "schema_cablage_2024"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
+					(reference "U27")
+					(unit 1)
+				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
 					(reference "U21")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
 					(reference "U24")
-					(unit 1)
-				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-					(reference "U27")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
@@ -3216,16 +3215,16 @@
 		)
 		(instances
 			(project "schema_cablage_2024"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
-					(reference "J2")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
+					(reference "J3")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
 					(reference "J1")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-					(reference "J3")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
+					(reference "J2")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
@@ -3236,7 +3235,6 @@
 		)
 	)
 	(symbol
-		(lib_name "FRC_Components:REV_NEO_Brushless_Motor")
 		(lib_id "FRC_Components:REV_NEO_Brushless_Motor")
 		(at 69.85 52.07 270)
 		(unit 1)
@@ -3302,20 +3300,20 @@
 		)
 		(instances
 			(project "schema_cablage_2024"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
-					(reference "M10")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
+					(reference "M14")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
-					(reference "M16")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b632b64e-d5b7-456d-a7ae-6969aba14a97"
+					(reference "M10")
 					(unit 1)
 				)
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e4b49782-05fc-4e80-9ba9-edd7f0cdce32"
 					(reference "M12")
 					(unit 1)
 				)
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/3439eb03-35bd-48b7-a9f1-5d73cc12bdd7"
-					(reference "M14")
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e92e2da7-8df4-42ea-b0b1-e2a2f3556d07"
+					(reference "M16")
 					(unit 1)
 				)
 			)
