@@ -1,3 +1,18 @@
+```
+┌────────────────────────────────┐
+├───────⯇──────┐                │ ╷
+│    ┌──────┐   │                  ├───
+├────│  M1  ├───┤                │ ╵ PB1
+│    └──────┘   │                ├──────────────┐
+│               │       ┌────────┴───────────┐  │
+│               │       │ ASTRO 7605         │  │
+│                ╲──────┤ schémas de câblage │  │
+│                 ╲     │ wiring diagrams    │  ⤒
+│               │       └────────┬───────────┘  │
+│     +│  -     │                │              │
+└──────┤ ├──────┴────────────────┴──────────────┘
+       │           
+```
 *English version below.*
 # À propos
 Ce dépot Git regorge de ressources en matière de schémas de câblage
@@ -42,9 +57,9 @@ de composantes) repart à neuf à chaque année!
 
 # English
 ## About
-This Git repository is full of resources for FRC wiring and components
-schematics. It is composed of a KiCad component library and a (Eeschema)
-schematic for the current year.
+This Git repository is full of resources for FRC wiring diagrams and
+component diagrams. It is composed of a KiCad component library and a
+(Eeschema) schematic for the current year.
 
 ## Versioning convention
 `MAJOR.MINOR`, (for example, `0.8` is the 8<sup>th</sup> draft of the
